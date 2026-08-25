@@ -1,21 +1,21 @@
-#Railroad Expansion and Market Access
+# Railroad Expansion and Market Access
 
 The purpose of this project is to examine the effect that the expansion of railroads had on the American economy.
 
-###Data set used:
+### Data set used:
 "Transportation Economics of the 21st Century" from the National Bureau of Economic Research (NBER)
 https://www.nber.org/research/data/transportation-economics-21st-century-rail-data
 
-###This data set contains the following:
+### This data set contains the following:
 1. data/geographical/* : contains shapefiles for the geometries of railroad segments and river segments from 1840 to 1920
 2. NFStranspCost.dta   : contains transportation cost data between counties for each decade from 1840 to 1920
 3. Cost_ID_county.xlsx : GIS identifiers and county / state names needed to link transportation costs to geographic data
 4. US_county_1890.shp  : shapefile containing geometries for all counties in 1890
 
-###Project Structure:
-**data/
-├─ county/ . . . . . . county centroids and shape file geometries
-├─ economic/ . . . . . economic data related to transportation cost in U.S. counties over time
+### Project Structure:
+**data/\
+├─ county/ . . . . . . county centroids and shape file geometries\
+├─ economic/ . . . . . economic data related to transportation cost in U.S. counties over time\
 ├─ geographical/ . . . shape files for geographic content (railroads, rivers, ports, etc)**
 
 
