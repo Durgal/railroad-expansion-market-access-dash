@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This document was created with Syntext Serna Free. -->
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Vanderbilt University Department of Economics</origin>
+				<pubdate>2009</pubdate>
+				<title>: National Historical Transportation Database: Railroads, 1830</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Nashville, Tennessee USA</pubplace>
+					<publish>Vanderbilt University</publish>
+				</pubinfo>
+				<onlink>http://www.vanderbilt.edu/econ/faculty/atack.html</onlink>
+				<lworkcit/>
+				<ftname Sync="TRUE">GFinal_1830_all_6</ftname>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Our goal is to construct a comprehensive georeferenced national historical transportation database covering the area of the lower 48 states based on contemporary sources from the late eighteenth century to the present when it will link to contemporary reference materials such as the US Department of Transportation, National Transportation Atlas (2008). The digitized source maps have been geo-referenced using ESRI's ArcGIS 9.3 by Jeremy Atack (Department of Economics, Vanderbilt University. Jeremy.atack@vanderbilt.edu) using personal resources against historical county boundary files put together as a part of the National Historical Geographic Information System (NHGIS) at the University of Minnesota Population Center under the direction of Professor Stephen Ruggles and with the financial support of National Science Foundation Grant number BCS0094908. Details regarding the underlying historical county boundary which rely heavily upon sources such as William Thorndale and William Dollarhide (1987), A Map Guide to the U.S. Federal Censuses, 1790-1920 (Genealogical Publishing Company, Baltimore, MD) and John H. Long (ed), Atlas of Historical County Boundaries (Charles Scribner, New York) are given in the metadata files distributed as a part of the NHGIS package (see http://www.nhgis.org). By georeferencing to boundary files with reliable map projections, the resulting shapefiles project reliably and correctly with any other properly georeferenced source, historical or contemporary (e.g. the Bureau of Transportation's National Transportation Atlas Databases (2008): http://www.bts.gov/publications/north_american_transportation_atlas_data/). However, please note that these shapefiles will NOT accurately register with the Historical United States County boundary files (HUSCO) originally created by Carville Earle as the HUSCO files lack adequate and consistent map projection information.</abstract>
+			<purpose>The national historical transportation database is a comprehensive collection of shapefiles covering the lower 48 states plus the District of Columbia (and other territories etc. as might exist at a specific reference date) depicting different aspects of the country's transportation system that was extant as of the given date according to the indicated historical source, typically a large-scale map which has been scanned and digitized and which forms the base underlying this shapefile. Specifics of the particular source used to create this particular shapefile are given below as a part of this metadata documentation.</purpose>
+			<supplinf>This mapping differs from those from 1850 onwards in so far as it is not directly based on a map. Rather it is based upon the database assembled by Professor Milton C. Hallberg at Pennsylvania State University (see http://www.personal.psu.edu/faculty/m/c/mch/railroad/) and published on the Web at http://oldrailhistory.com. In some cases the visual maps are inconsistent with the database. In such cases I sought independent evidence regarding when parts of lines were built, generally from histories of particular roads. The base map though was the 1850 network based on the Library of Congress’s map for 1851 (copyright date) by Henry A. Burr (g3700 rr000170 http://hdl.loc.gov/loc.gmd/g3700.rr000170 ) that was published by Disturnell as part of their travel guide. This is one of several different, but plausible, maps of the US rail network about the same time, including maps by one of Disturnell's competitors, Dinsmore (g3701p rr000100 http://hdl.loc.gov/loc.gmd/g3701p.rr000100) and such beautiful maps as that by Phelps from the Birminghan (Alabama) Public Library. As I did additional tracings, especially of intervening years (such as Sage [1858] and Ensign [1856]), however, I came to appreciate what I discerned was the superior accuracy of Disturnell's rendering. The 1860 network, like others in this series has been derived by working backwards, starting with the rail network in 1911, then 1887, then 1880 and 1870. The 1860 mapping is based on the Library of Congress’s map for 1860 (copyright date) by Colton (RR000410) as cited below. This is one of several different, but plausible, maps of the US rail network about the same time. Given this uncertainty as to which is “correct” for projecting backwards, I originally produced rail network shapefiles for 1860 based off two different but equally plausible/reputable sources (the other being that by Charles Magnus (g3701p rr000440 http://hdl.loc.gov/loc.gmd/g3701p.rr000440) and used, according to the titling, by the Union Army during the war. Ultimately, however, I decided that Colton's was superior.</supplinf>
+			<supplinf>The 1870 mapping is based on the Library of Congress’s map for 1870 (copyright date) by Colton (RR000500) as cited below. The 1880 network is derived from the 1887 mapping which, in turn, was derived from the 1911 mapping which constitutes the base map for this series of railroad mappings. Based upon our earlier convention of dating based upon the date of publication of the underlying source, this mapping ought to be labeled “1882” rather than 1880.It was created from a digitized image from the Library of Congress of “Colton's intermediate railroad map of the United States” published in 1882. The procedure for deriving this rail network is described below. It is NOT a simple tracing of the rail network as shown by Colton and is derived, as indicated above, via the intermediation of the 1887 mapping.The rail network for 1911 forms the base shapefile in our historical rail network because of the availability of high resolution digital images from http://www.goldbug.com issued as CD-ROMs under the title "Historic Map Library: 1911 Century Map series-Eastern United States" (and " Historic Map Library: 1911 Century Map series-Western United States"). The maps are described in the goldbug.com documentation as "from the Century Atlas published in 1911." No other description is provided. Sleuthing suggests that these same maps appear in volume 12 of The Century dictionary and cyclopedia, with a new atlas of the world; a work of general reference in all departments of knowledge ... (New York, Century Co.. Rev. and enl. ed., 1911) prepared under the superintendence of Benjamin E. Smith [A copy of this work may be found in the Vanderbilt University Library call number: PE1625 .C4 1911. It also appears in OCLC as 1062940]. Errors in the 1911 base shapefiles arising from errors and omissions by the mapmakers, errors in geo-referencing the digitized images, and mis-tracings of the data will therefore be propagated through the other shapefiles which build upon these. As described below, however, we have endeavored to correct any mis-tracings.In creating the shapefiles, each line segment represents a rail link between two named points on the 1911 maps. The map keys indicate that the size of the fonts for each name is an indicator of the size of the community -- most were small italics, designating the smallest communities named on the maps. It is tempting to infer that these points represent railroad stations but the map legends are silent on that point. In general, I endeavored to ensure that the railroads "snapped" to the other endpoints or edges, although this was not always reliably the case.</supplinf>
+		</descript>
+		<descript>
+			<langdata Sync="TRUE">en</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1850</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>1850</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>1850</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>1850</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>1850</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>1850</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>1850</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>1850</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>1850</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>1850</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>As work is completed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-95.011232</westbc>
+				<eastbc Sync="TRUE">-66.006500</eastbc>
+				<northbc Sync="TRUE">50.133165</northbc>
+				<southbc Sync="TRUE">28.717365</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">-2331340.740905</leftbc>
+				<rightbc Sync="TRUE">2252334.510330</rightbc>
+				<bottombc Sync="TRUE">-1329351.621882</bottombc>
+				<topbc Sync="TRUE">1572218.599774</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>historical</themekey>
+				<themekey>transportation</themekey>
+				<themekey>railroads</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+			</temporal>
+		</keywords>
+		<accconst>All persons are granted a limited license to use and distribute this documentation and the available data, subject to the use constraints listed below.</accconst>
+		<useconst>The data set was produced with an intended application at the level of the state, region, or nation. Errors when used at smaller geographic units may be unacceptably large. Appropriate uses include thematic mapping of transportation media through time and spatial analysis thereof. This dataset was produced with an intended application at the state/territory, regional or national level. Appropriate uses include thematic mapping of census data and spatial analysis of census data. These unaltered data may be redistributed by a third party. If these data are altered or incorporated into another dataset, they are not to be redistributed without also: altering the name of the dataset, including a Content Standars for Digital Geospatial Metadata (FGDC-STD-001-1998) compliant metadata file that describes the dataset and reflects the alteration steps that makes the new dataset different from this one, and citing this dataset in the metadata as a source for the altered dataset using the source citation specified below. If these digital data are used in the production of a report or in the compilation of a standalone printed map, then this dataset is to be cited in the report or on the map using the source citation specified below. The following source citation should be used when citing this dataset: Jeremy Atack, National Historical Transportation Database: Railroads, 1870. January 2010 version. (Vanderbilt University and NBER, 2010). No fee may be charged for use or distribution. Publications and research reports based on the database must cite it appropriately. Users are requested to send a copy of any publications, research reports, or educational material making use of the data or documentation. Printed matter should be sent to: Professor Jeremy Atack, Department of Economics, Box 351819 Station B, Vanderbilt University, Nashville, TN. 37235 USA</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Jeremy Atack</cntper>
+					<cntorg>Department of Economics</cntorg>
+				</cntperp>
+				<cntpos>Professor of Economics and Professor of History.</cntpos>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>Vanderbilt University Stateion B Box 351819</address>
+					<address>2301 Vanderbilt Place</address>
+					<city>Nashville</city>
+					<state>Tennessee</state>
+					<postal>37235-1819</postal>
+					<country>USA</country>
+					<addrtype>Physical address</addrtype>
+					<address>211B Calhoun Hall</address>
+					<address>Vanderbilt University</address>
+					<city>Nashville</city>
+					<state>Tennessee</state>
+					<postal>37240</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>615-322-2871</cntvoice>
+				<cntemail>Jeremy.atack@vanderbilt.edu</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred/>
+		<native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.0.1770</native>
+		<natvform Sync="TRUE">Shapefile</natvform>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>No systematic effort has been made to correlate the rail location with current railroads although a casual overlay suggests a fairly high degree of accuracy in the 1911 base maps. Moreover, satellite imagery from the Microsoft Terraserver reveals traces of old railroad lines where none currently exists that are in close proximity (e.g. often within a mile or less) of our tracings of the rail route.</attraccr>
+		</attracc>
+		<logic>In general, I endeavored to ensure that the railroads "snapped" to the other endpoints or edges, although this was not always reliably the case. .</logic>
+		<complete/>
+		<posacc>
+			<horizpa>
+				<horizpar>The horizontal positional accuracy of the underlying data to which our maps were georeferenced (U.S. Census Bureau TIGER/Line 2000 files) can be found at http://www.census.gov/geo/www/tlmetadata/tl2kmeta.txt. We geo-referenced our maps as carefully as possible, generally using second or third order transformations but in the absence of a complete point-by-point referencing, differences between the two always remained and these lines should only be used for thematic mapping and statistical analysis.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>J. Disturnell</origin>
+						<pubdate>1851</pubdate>
+						<title>Disturnell's new map of the United States and Canada showing all the canals, rail roads, telegraph lines and principal stage routes. Drawn by Henry A. Burr</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>New York</pubplace>
+							<publish>J. Disturnell</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>Scale 1:4,000,000</srcscale>
+				<typesrc>scanned images by Library of Congress. American Memory. Railroad map collection of paper copy. Digital ID: g3700 rr000170 http://hdl.loc.gov/loc.gmd/g3700.rr000170</typesrc>
+				<srccitea/>
+				<srccontr>Map of the eastern half of the United States showing relief by hachures, drainage, major cities and towns, canals, roads, telegraph lines, railroads, and unfinished railroads. [From published bibliography]. For details regarding the boundary files to which these maps were georeferenced, the user is referred to the documentation associated with the NHGIS county boundary files from http://www.nhgis.org</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>J. H. Colton</origin>
+						<pubdate>1860</pubdate>
+						<title>Colton's new railroad &amp; county map of the United States and the Canadas &amp;c</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>New York</pubplace>
+							<publish>J. H. Colton</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>Scale 1:3,250,000</srcscale>
+				<typesrc>scanned images by Library of Congress. American Memory. Railroad map collection of paper copy. Digital ID: g3701p rr000410 http://hdl.loc.gov/loc.gmd/g3701p.rr000410</typesrc>
+				<srccitea/>
+				<srccontr>Detailed county map of the eastern half of the United States showing place names and the railroads.. For details regarding the boundary files to which these maps were georeferenced, the user is referred to the documentation associated with the NHGIS county boundary files from http://www.nhgis.org</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>G. W. &amp; C. B. Colton &amp; Co,</origin>
+						<pubdate>1870</pubdate>
+						<title>Colton's railroad map (intermediate size) of the United States reduced from "Colton's railroad and commercial map of the United States.".</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>New York</pubplace>
+							<publish>G. W. &amp; C. B. Colton &amp; Co,</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>Scale 1:2,217,600</srcscale>
+				<typesrc>scanned images by Library of Congress. American Memory. Railroad map collection of paper copy. Digital ID: g3701p rr000500 http://hdl.loc.gov/loc.gmd/g3701p.rr000500</typesrc>
+				<srccitea/>
+				<srccontr>Detailed map of the United States showing drainage, cities and towns, internal boundaries, railroads named along the line, and railroads under construction. For details regarding the boundary files to which these maps were georeferenced, the user is referred to the documentation associated with the NHGIS county boundary files from http://www.nhgis.org</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>G. W. &amp; C. B. Colton &amp; Co,</origin>
+						<pubdate>1882</pubdate>
+						<title>Colton's intermediate railroad map of the United States.</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>New York</pubplace>
+							<publish>G. W. &amp; C. B. Colton &amp; Co,</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>1:2,217,600; 35 miles = 1 in</srcscale>
+				<typesrc>scanned images by Library of Congress. American Memory. Railroad map collection of paper copy. Digital ID: g3701p rr000600 http://hdl.loc.gov/loc.gmd/g3701p.rr000600</typesrc>
+				<srccitea/>
+				<srccontr>Detailed map of the continental United States and part of Canada indicating drainage, international, state and county boundaries, cities and towns, railroads, with names along each line. Railroads under construction are indicated by dashed lines.. For details regarding the boundary files to which these maps were georeferenced, the user is referred to the documentation associated with the NHGIS county boundary files from http://www.nhgis.org</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>George F. Cram</origin>
+						<pubdate>1887</pubdate>
+						<title>[presumed to be from] Cram's standard American atlas of the world</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>Chicago, IL</pubplace>
+							<publish>G. F. Cram</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>various</srcscale>
+				<typesrc>scanned images by www.goldbug.com of paper copy</typesrc>
+				<srccitea/>
+				<srccontr>full color maps by state showing railroads. For details regarding the boundary files to which these maps were georeferenced, the user is referred to the documentation associated with the NHGIS county boundary files from http://www.nhgis.org</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Century Company and Benjamin E. Smith</origin>
+						<pubdate>1911</pubdate>
+						<title>The Century dictionary and cyclopedia, with a new atlas of the world; a work of general reference in all departments of knowledge, Volume 12</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>New York, NY</pubplace>
+							<publish>Century Company</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>various</srcscale>
+				<typesrc>scanned images by www.goldbug.com of paper copy</typesrc>
+				<srccitea/>
+				<srccontr>full color maps by state showing railroads. For details regarding the boundary files to which these maps were georeferenced, the user is referred to the documentation associated with the NHGIS county boundary files from http://www.nhgis.org</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>These process steps describe the general procedure used to construct the National Historical Transportation databases. The source for these transportation data was georeferenced to the NHGIS county boundary files using ESRI’s ArcGIS 9.* software and an IMG file of the source was created, typically using a second order transformation although the source was allowed the “suggest” the appropriate transformation by “eyeballing” which produced the best fit between the contemporary map and the boundary shapefile. Where the source map had been split into separate parts and pasted onto a backer, creating discontinuities in the map across the Lower 48 states, each part was georeferenced separately. These IMG files were often large (some were a gigabyte or more). Consequently, even where they have been retained (some have been lost or become corrupted), they are not included as a part of these databases.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>Points were georeferenced until the operator (Jeremy Atack, in many cases) decided a “satisfactory” fit (as determined by eye) had been attained between the source and the boundary file. The fit was generally much more satisfactory later rather than earlier.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>A COPY of the transportation network from the closest LATER year (beginning with the 1911 network and working backwards) was then overlayed upon the georeferenced image. Transportation network segments from the later network that did not correspond to segments on earlier map were deleted to create the network at the earlier date. A precise overlay was NOT expected because of errors in mapping and in georeferencing.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>Transportation segments were ADDED only when and where there was strong, independent evidence of the existence of a transportation route that had been subsequently abandoned (e.g. the link appears on at least one other map). That is to say, the implicit assumption is that later maps were more accurate than earlier maps and that transportation routes were unlikely to have been abandoned prior to the base date—1911 in the case of US railroads.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">E:\Mapping\1858\1858SageRR</srcused>
+				<procdate Sync="TRUE">20100305</procdate>
+				<proctime Sync="TRUE">09184400</proctime>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">E:\Mapping\1856\1856EnsignRR</srcused>
+				<procdate Sync="TRUE">20100513</procdate>
+				<proctime Sync="TRUE">10575600</proctime>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">E:\Mapping\1850\1850Disturnell-1856EnsignRR</srcused>
+				<procdate Sync="TRUE">20100628</procdate>
+				<proctime Sync="TRUE">13004300</proctime>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">C:\MyWork\Maps&amp;Mapping\Railroads\OldRRMappings\1830\1830per1850DisturnellandOldRailHistory</srcused>
+				<procdate Sync="TRUE">20100710</procdate>
+				<proctime Sync="TRUE">11320700</proctime>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Dataset moved.</procdesc><srcused Sync="TRUE">C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\GFinal_1830_all_6</srcused><procdate Sync="TRUE">20120917</procdate><proctime Sync="TRUE">18205700</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset moved.</procdesc><srcused Sync="TRUE">C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\Complete Networks\GFinal\GFinal_1830_all_6</srcused><procdate Sync="TRUE">20120917</procdate><proctime Sync="TRUE">18230600</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset moved.</procdesc><srcused Sync="TRUE">C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\Complete Networks\GFinal\GFinal_1830_all_6</srcused><procdate Sync="TRUE">20120924</procdate><proctime Sync="TRUE">13074900</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="GFinal_1830_all_6">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>11</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="GFinal_1830_all_6">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polyline</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">0</efeacnt>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn><albers><stdparll Sync="TRUE">29.500000</stdparll><stdparll Sync="TRUE">45.500000</stdparll><longcm Sync="TRUE">-96.000000</longcm><latprjo Sync="TRUE">37.500000</latprjo><feast Sync="TRUE">0.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></albers></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<projcsn Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic</projcsn>
+			</cordsysn>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">0.000100</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="GFinal_1830_all_6">
+			<enttyp>
+				<enttypl Sync="TRUE">GFinal_1830_all_6</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Id</attrlabl>
+				<attalias Sync="TRUE">Id</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">state</attrlabl>
+				<attalias Sync="TRUE">state</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+			</attr>
+			<attr><attrlabl Sync="TRUE">Miles</attrlabl><attalias Sync="TRUE">Miles</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">13</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">Shape_Le_1</attrlabl><attalias Sync="TRUE">Shape_Le_1</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Department of Economics</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>413 Calhoun Hall</address>
+					<address>Vanderbilt University</address>
+					<city>Nashville</city>
+					<state>TN</state>
+					<postal>37235</postal>
+				</cntaddr>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.026</transize>
+					<dssize Sync="TRUE">0.000</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20120924</metd>
+		<metfrd>As necessary</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Vanderbilt University</cntorg>
+					<cntper>Jeremy Atack</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Mailing address.</addrtype>
+					<address>Box 351819 Station B, Vanderbilt University</address>
+					<address>Department of Economics</address>
+					<city>Nashville</city>
+					<state>Tennessee</state>
+					<postal>37235-1819</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>615-322-2871</cntvoice>
+				<cntemail>Jeremy.atack@vanderbilt.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri>
+		<CreaDate>20100710</CreaDate>
+		<CreaTime>11320700</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20120924</SyncDate>
+		<SyncTime>13034900</SyncTime>
+		<ModDate>20120924</ModDate>
+		<ModTime>13034900</ModTime>
+		<DataProperties>
+			<lineage>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DefineProjection" Date="20100203" Time="095950">DefineProjection 1870RR PROJCS['USA_Contiguous_Albers_Equal_Area_Conic',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Albers'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-96.0],PARAMETER['Standard_Parallel_1',29.5],PARAMETER['Standard_Parallel_2',45.5],PARAMETER['Latitude_Of_Origin',37.5],UNIT['Meter',1.0]] 1870RR</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DefineProjection" Date="20100304" Time="135132">DefineProjection 1858SageRR PROJCS['USA_Contiguous_Albers_Equal_Area_Conic',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Albers'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-96.0],PARAMETER['Standard_Parallel_1',29.5],PARAMETER['Standard_Parallel_2',45.5],PARAMETER['Latitude_Of_Origin',37.5],UNIT['Meter',1.0]] 1858SageRR</Process>
+				<Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SplitLine" Date="20120717" Time="110419">SplitLine "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\1830 RR - Old\1830RR + transportation route.shp" "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\1830 RR - Old\1830RR_Splitline.shp"</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20120717" Time="111527">FeatureClassToFeatureClass "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\1830 RR - Old\1830RR_Splitline.shp" "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\1830 topology\1830 topology.gdb\topology_1830" topology_1830 # "Id 'Id' true true false 6 Long 0 6 ,First,#,C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\1830 RR - Old\1830RR_Splitline.shp,Id,-1,-1;state 'state' true true false 20 Text 0 0 ,First,#,C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\1830 RR - Old\1830RR_Splitline.shp,state,-1,-1;Miles 'Miles' true true false 13 Float 0 0 ,First,#,C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\1830 RR - Old\1830RR_Splitline.shp,Miles,-1,-1" # "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\1830 topology\1830 topology.gdb\topology_1830\topology_1830"</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20120717" Time="111843">FeatureClassToFeatureClass "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\1830 topology\1830 topology.gdb\topology_1830\topology_1830" "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks" Final_1830_all_6.shp # "Id 'Id' true true false 4 Long 0 0 ,First,#,C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\1830 topology\1830 topology.gdb\topology_1830\topology_1830,Id,-1,-1;state 'state' true true false 20 Text 0 0 ,First,#,C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\1830 topology\1830 topology.gdb\topology_1830\topology_1830,state,-1,-1;Miles 'Miles' true true false 4 Float 0 0 ,First,#,C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\1830 topology\1830 topology.gdb\topology_1830\topology_1830,Miles,-1,-1;Shape_Leng 'Shape_Length' false true true 8 Double 0 0 ,First,#,C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\1830 topology\1830 topology.gdb\topology_1830\topology_1830,Shape_Length,-1,-1" # "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\Final_1830_all_6.shp"</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\SplitLine" Date="20120917" Time="181207">SplitLine "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\Final_1830_all_6.shp" "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\New Networks\1830 Networks\GFinal_1830_all_6.shp"</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20120924" Time="105636">CopyFeatures "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\Complete Networks\GFinal\1830\GFinal_1830_all_6.shp" "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\Complete Networks\GFinal\no_self_intersect_6.gdb\G\GFinal_1830_all_6" # 0 0 0</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20120924" Time="130349">CopyFeatures "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\Complete Networks\GFinal\no_self_intersect_6.gdb\G\GFinal_1830_all_6" "C:\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\Complete Networks\GFinal\GFinal_1830_all_6.shp" # 0 0 0</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150805" Time="115927">CalculateField GFinal_1830_6_costOK t (.00627324613 * [Length] / 1609.344)
+ VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150805" Time="115942">CalculateField GFinal_1830_6_costOK tt "[t]- [cost]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.3\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150820" Time="164325">CalculateField GFinal_1830_6_costOK adfg "1879" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180816" Time="113502">CalculateField Component_6_1830 railroad 1 VB #</Process></lineage>
+		</DataProperties>
+		<MetaID>{0FDD0CDE-8F79-4EA3-A439-28043F55A366}</MetaID>
+	</Esri>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.0.1770</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="en"/>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">GFinal_1830_all_6</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"/>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"/>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">-2331340.740905</westBL>
+					<eastBL Sync="TRUE">2252334.51033</eastBL>
+					<northBL Sync="TRUE">1572218.599774</northBL>
+					<southBL Sync="TRUE">-1329351.621882</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">-95.011232</westBL>
+			<eastBL Sync="TRUE">-66.0065</eastBL>
+			<northBL Sync="TRUE">50.133165</northBL>
+			<southBL Sync="TRUE">28.717365</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+	</dataIdInfo>
+	<mdLang>
+		<languageCode Sync="TRUE" value="en"/>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004"/>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005"/>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc Sync="TRUE">002</orDesc>
+					<linkage Sync="TRUE">file://\\HORNBECK-PC\C$\Users\Railroad.Hornbeck-PC\Dropbox\Railroad Project\Complete Networks\GFinal\1830\GFinal_1830_all_6</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</onLineSrc>
+				<transSize Sync="TRUE">0.000</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">Shapefile</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001"/>
+			</topLvl>
+			<geometObjs Name="GFinal_1830_all_6"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<mdDateSt Sync="TRUE">20120924</mdDateSt>
+</metadata>
