@@ -3,6 +3,7 @@ import geopandas as gpd
 import pandas as pd
 import plotly.graph_objects as go
 from dash import Dash, dcc, html, Input, Output
+import gc
 
 COLORS = {
     "background": "#2B2118",
@@ -125,7 +126,7 @@ def load_county_geometry():
         tolerance=1000,
         preserve_topology=True
     )
-    
+
     # merge county identification data with the county geometries
     COUNTIES = COUNTIES.merge(
         county_ids.copy(),
@@ -191,6 +192,10 @@ def load_state_geometry():
     state_boundaries["geometry"] = state_boundaries.geometry.boundary   # get the GeoDataFrame for all state boundaries
     global STATE_X, STATE_Y                                             # access global variables state x / y
     STATE_X, STATE_Y = gdf_to_coordinates(state_boundaries)             # get the list of X / Y coordinates of all state boundaries
+
+    del state_boundaries
+    del states
+    gc.collect()
 
 
 # ------------------------------------------------
