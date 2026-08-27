@@ -120,6 +120,12 @@ def load_county_geometry():
     global COUNTIES
     COUNTIES = gpd.read_file(COUNTY_SHAPEFILE)
 
+    # simplify county geometries
+    COUNTIES["geometry"] = COUNTIES.geometry.simplify(
+        tolerance=1000,
+        preserve_topology=True
+    )
+    
     # merge county identification data with the county geometries
     COUNTIES = COUNTIES.merge(
         county_ids.copy(),
